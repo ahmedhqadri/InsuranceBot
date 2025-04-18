@@ -1,0 +1,1 @@
+web: streamlit run ai-chatbot.py --server.port=$PORT --server.enableCORS=false

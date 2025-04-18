@@ -708,7 +708,7 @@ def ld_send_feedback(tracker, is_positive, message_index):
         # Get the LaunchDarkly client instance
         ld_client = LaunchDarklyClient(
             server_key=os.getenv("LD_SERVER_KEY"),
-            ai_config_id=os.getenv("LD_AI_CONFIG_ID", default="test1")
+            ai_config_id=os.getenv("LD_AI_CONFIG_ID")
         )
         ld_client.send_feedback(tracker, is_positive)
         
