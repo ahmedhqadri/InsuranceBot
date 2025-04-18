@@ -21,7 +21,7 @@ An AI-powered insurance chatbot application that utilizes LaunchDarkly's AI Conf
 ### LaunchDarkly Setup
 
 1. **Create a LaunchDarkly Account**
-   - Sign up at [LaunchDarkly.com](https://launchdarkly.com)
+   - Sign up at [LaunchDarkly App](https://app.launchdarkly.com)
    - Create a new project for your insurance chatbot
 
 2. **Create an AI Config**
